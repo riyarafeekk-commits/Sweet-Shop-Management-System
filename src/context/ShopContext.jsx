@@ -12,6 +12,16 @@ export const ShopProvider = ({ children }) => {
         setUser(userData);
     };
 
+    const validateCredentials = (id, password) => {
+        if (id === 'admin' && password === 'admin') {
+            return { id: 'admin', name: 'Administrator', role: 'admin', photo: 'https://ui-avatars.com/api/?name=Admin&background=0D8ABC&color=fff' };
+        }
+        if (id === 'user' && password === 'test') {
+            return { id: 'user', name: 'Test User', role: 'customer', photo: 'https://ui-avatars.com/api/?name=Test+User&background=random' };
+        }
+        return null;
+    };
+
     const logout = () => {
         setUser(null);
     };
@@ -60,7 +70,8 @@ export const ShopProvider = ({ children }) => {
             cartCount,
             user,
             login,
-            logout
+            logout,
+            validateCredentials
         }}>
             {children}
         </ShopContext.Provider>
