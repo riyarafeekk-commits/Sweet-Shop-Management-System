@@ -5,7 +5,7 @@ export const MOCK_SWEETS = [
         category: "Chocolate",
         price: 12.99,
         quantity: 50,
-        image_url: "https://placehold.co/400x300?text=Dark+Truffles"
+        image_url: "https://images.unsplash.com/photo-1548907040-4baa42d10919?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const MOCK_SWEETS = [
         category: "Gummy",
         price: 5.49,
         quantity: 100,
-        image_url: "https://placehold.co/400x300?text=Gummy+Bears"
+        image_url: "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const MOCK_SWEETS = [
         category: "Hard",
         price: 3.99,
         quantity: 75,
-        image_url: "https://placehold.co/400x300?text=Peppermints"
+        image_url: "https://images.unsplash.com/photo-1575224300306-1b8da36134ec?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ export const MOCK_SWEETS = [
         category: "Chocolate",
         price: 4.99,
         quantity: 60,
-        image_url: "https://placehold.co/400x300?text=Milk+Chocolate"
+        image_url: "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ export const MOCK_SWEETS = [
         category: "Gummy",
         price: 4.49,
         quantity: 80,
-        image_url: "https://placehold.co/400x300?text=Sour+Worms"
+        image_url: "https://images.unsplash.com/photo-1499195333224-3ce974eecb47?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ export const MOCK_SWEETS = [
         category: "Hard",
         price: 2.99,
         quantity: 90,
-        image_url: "https://placehold.co/400x300?text=Butterscotch"
+        image_url: "https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ export const MOCK_SWEETS = [
         category: "Chocolate",
         price: 8.99,
         quantity: 40,
-        image_url: "https://placehold.co/400x300?text=White+Raspberry"
+        image_url: "https://images.unsplash.com/photo-1481391319762-47dff72954d9?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ export const MOCK_SWEETS = [
         category: "Gummy",
         price: 5.99,
         quantity: 55,
-        image_url: "https://placehold.co/400x300?text=Peach+Rings"
+        image_url: "https://images.unsplash.com/photo-1504185945330-dd4fa29c47f2?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ export const MOCK_SWEETS = [
         category: "Hard",
         price: 3.49,
         quantity: 65,
-        image_url: "https://placehold.co/400x300?text=Cinnamon"
+        image_url: "https://images.unsplash.com/photo-1599307767316-2c52a362247b?auto=format&fit=crop&w=400&q=80"
     },
     {
         id: 10,
@@ -77,6 +77,6 @@ export const MOCK_SWEETS = [
         category: "Chocolate",
         price: 10.99,
         quantity: 45,
-        image_url: "https://placehold.co/400x300?text=Hazelnut"
+        image_url: "https://images.unsplash.com/photo-1526081347589-91897c41ebce?auto=format&fit=crop&w=400&q=80"
     }
 ];
