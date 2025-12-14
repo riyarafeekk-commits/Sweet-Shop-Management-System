@@ -6,6 +6,15 @@ export const useShop = () => useContext(ShopContext);
 
 export const ShopProvider = ({ children }) => {
     const [cartItems, setCartItems] = useState([]);
+    const [user, setUser] = useState(null);
+
+    const login = (userData) => {
+        setUser(userData);
+    };
+
+    const logout = () => {
+        setUser(null);
+    };
 
     const addToCart = (sweet, quantity = 1) => {
         setCartItems(prev => {
@@ -48,7 +57,10 @@ export const ShopProvider = ({ children }) => {
             updateQuantity,
             clearCart,
             cartTotal,
-            cartCount
+            cartCount,
+            user,
+            login,
+            logout
         }}>
             {children}
         </ShopContext.Provider>

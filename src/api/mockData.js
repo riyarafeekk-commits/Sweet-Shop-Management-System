@@ -10,7 +10,7 @@ export const MOCK_SWEETS = [
     {
         id: 2,
         name: "Gummy Bears Assorted",
-        category: "Gummy",
+        category: "Candy",
         price: 5.49,
         quantity: 100,
         image_url: "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?auto=format&fit=crop&w=400&q=80"
@@ -34,7 +34,7 @@ export const MOCK_SWEETS = [
     {
         id: 5,
         name: "Sour Worms",
-        category: "Gummy",
+        category: "Candy",
         price: 4.49,
         quantity: 80,
         image_url: "https://images.unsplash.com/photo-1499195333224-3ce974eecb47?auto=format&fit=crop&w=400&q=80"
@@ -58,7 +58,7 @@ export const MOCK_SWEETS = [
     {
         id: 8,
         name: "Peach Rings",
-        category: "Gummy",
+        category: "Candy",
         price: 5.99,
         quantity: 55,
         image_url: "https://images.unsplash.com/photo-1504185945330-dd4fa29c47f2?auto=format&fit=crop&w=400&q=80"

@@ -6,16 +6,22 @@ import LoginPage from './pages/LoginPage';
 import AdminPage from './pages/AdminPage';
 import { ShopProvider } from './context/ShopContext';
 import Cart from './components/Cart';
+import SearchOverlay from './components/SearchOverlay';
 
 export default function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
     <ShopProvider>
       <Router>
         <div className="min-h-screen bg-gray-100 font-sans relative">
-          <Navbar onCartClick={() => setIsCartOpen(true)} />
+          <Navbar
+            onCartClick={() => setIsCartOpen(true)}
+            onSearchClick={() => setIsSearchOpen(true)}
+          />
           <Cart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+          <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
           <main>
             <Routes>
               <Route path="/" element={<HomePage />} />
